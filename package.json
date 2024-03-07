@@ -8,7 +8,9 @@
     "test:unit": "jest --config unit.jest.js",
     "test:e2e": "jest --config e2e.jest.js",
     "test": "npm run test:unit && npm run test:e2e",
-    "compile": "gulp compile"
+    "compile": "gulp compile",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "files": [
     "dist",
@@ -55,6 +57,14 @@
     "@cfaester/enzyme-adapter-react-18": "^0.7.1",
     "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^19.0.3",
+    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/addon-interactions": "^7.6.17",
+    "@storybook/addon-links": "^7.6.17",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/blocks": "^7.6.17",
+    "@storybook/react": "^7.6.17",
+    "@storybook/react-webpack5": "^7.6.17",
+    "@storybook/test": "^7.6.17",
     "@types/jest": "^29.5.12",
     "@types/jest-environment-puppeteer": "^5.0.6",
     "@types/jest-image-snapshot": "^6.4.0",
@@ -68,6 +78,7 @@
     "jest-image-snapshot": "^6.4.0",
     "jest-puppeteer": "^10.0.1",
     "merge2": "^1.4.1",
-    "puppeteer-core": "^22.4.0"
+    "puppeteer-core": "^22.4.0",
+    "storybook": "^7.6.17"
   }
 }
