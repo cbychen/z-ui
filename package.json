@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "React Component Lib",
   "main": "lib/index.js",
+  "module": "es/index.js",
+  "unpkg": "dist/z-ui.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
+
     "build": "webpack",
     "test:unit": "jest --config unit.jest.js",
     "test:e2e": "jest --config e2e.jest.js",
