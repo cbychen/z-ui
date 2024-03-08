@@ -7,7 +7,6 @@
   "unpkg": "dist/z-ui.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-
     "build": "webpack",
     "test:unit": "jest --config unit.jest.js",
     "test:e2e": "jest --config e2e.jest.js",
@@ -83,6 +82,7 @@
     "jest-puppeteer": "^10.0.1",
     "merge2": "^1.4.1",
     "puppeteer-core": "^22.4.0",
-    "storybook": "^7.6.17"
+    "storybook": "^7.6.17",
+    "styled-components": "^6.1.8"
   }
 }
